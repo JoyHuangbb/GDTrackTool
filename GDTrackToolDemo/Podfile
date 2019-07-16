@@ -1,0 +1,4 @@
+platform :ios, '8.0'
+target 'GDTrackToolDemo' do
+    pod 'UMengAnalytics-NO-IDFA'
+end

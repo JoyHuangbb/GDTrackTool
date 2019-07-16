@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1E506522DC27A90040A698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E506422DC27A90040A698 /* AppDelegate.m */; };
+		3F1E506D22DC27AA0040A698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E506C22DC27AA0040A698 /* Assets.xcassets */; };
+		3F1E507322DC27AA0040A698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E507222DC27AA0040A698 /* main.m */; };
+		3FEEDAF822DD786600599D79 /* GDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEDAF722DD786600599D79 /* GDTrackTool.m */; };
+		3FEEDAFB22DD791D00599D79 /* UIViewController+GDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEDAFA22DD791D00599D79 /* UIViewController+GDTrackTool.m */; };
+		3FEEDAFE22DD7EE900599D79 /* UIControl+GDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEDAFD22DD7EE900599D79 /* UIControl+GDTrackTool.m */; };
+		3FEEDB0122DDBAF600599D79 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEDB0022DDBAF600599D79 /* ViewController1.m */; };
+		3FEEDB0422DDBBB900599D79 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEDB0322DDBBB900599D79 /* ViewController2.m */; };
+		E98686171B1443E389C9972A /* libPods-GDTrackToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A077D81960C9AE120789B67F /* libPods-GDTrackToolDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0708DB3470F8C809946C6C2B /* Pods-GDTrackToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTrackToolDemo.debug.xcconfig"; path = "Target Support Files/Pods-GDTrackToolDemo/Pods-GDTrackToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1E506022DC27A90040A698 /* GDTrackToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDTrackToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1E506322DC27A90040A698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F1E506422DC27A90040A698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F1E506C22DC27AA0040A698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1E507122DC27AA0040A698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1E507222DC27AA0040A698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FEEDAF622DD786600599D79 /* GDTrackTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDTrackTool.h; sourceTree = "<group>"; };
+		3FEEDAF722DD786600599D79 /* GDTrackTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDTrackTool.m; sourceTree = "<group>"; };
+		3FEEDAF922DD791D00599D79 /* UIViewController+GDTrackTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GDTrackTool.h"; sourceTree = "<group>"; };
+		3FEEDAFA22DD791D00599D79 /* UIViewController+GDTrackTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GDTrackTool.m"; sourceTree = "<group>"; };
+		3FEEDAFC22DD7EE900599D79 /* UIControl+GDTrackTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+GDTrackTool.h"; sourceTree = "<group>"; };
+		3FEEDAFD22DD7EE900599D79 /* UIControl+GDTrackTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+GDTrackTool.m"; sourceTree = "<group>"; };
+		3FEEDAFF22DDBAF600599D79 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		3FEEDB0022DDBAF600599D79 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		3FEEDB0222DDBBB900599D79 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		3FEEDB0322DDBBB900599D79 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		690B99C48E1EC2EE5ECF2656 /* Pods-GDTrackToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTrackToolDemo.release.xcconfig"; path = "Target Support Files/Pods-GDTrackToolDemo/Pods-GDTrackToolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A077D81960C9AE120789B67F /* libPods-GDTrackToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDTrackToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1E505D22DC27A90040A698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98686171B1443E389C9972A /* libPods-GDTrackToolDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1E505722DC27A90040A698 = {
+			isa = PBXGroup;
+			children = (
+				3F1E506222DC27A90040A698 /* GDTrackToolDemo */,
+				3F1E506122DC27A90040A698 /* Products */,
+				BF09C86D42FFE824C00E7846 /* Pods */,
+				C34C1AF9E6DACD6A97C7AF1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1E506122DC27A90040A698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E506022DC27A90040A698 /* GDTrackToolDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1E506222DC27A90040A698 /* GDTrackToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E507C22DC2F370040A698 /* GDTrackTool */,
+				3F1E506322DC27A90040A698 /* AppDelegate.h */,
+				3F1E506422DC27A90040A698 /* AppDelegate.m */,
+				3FEEDAFF22DDBAF600599D79 /* ViewController1.h */,
+				3FEEDB0022DDBAF600599D79 /* ViewController1.m */,
+				3FEEDB0222DDBBB900599D79 /* ViewController2.h */,
+				3FEEDB0322DDBBB900599D79 /* ViewController2.m */,
+				3F1E506C22DC27AA0040A698 /* Assets.xcassets */,
+				3F1E507122DC27AA0040A698 /* Info.plist */,
+				3F1E507222DC27AA0040A698 /* main.m */,
+			);
+			path = GDTrackToolDemo;
+			sourceTree = "<group>";
+		};
+		3F1E507C22DC2F370040A698 /* GDTrackTool */ = {
+			isa = PBXGroup;
+			children = (
+				3FEEDAF622DD786600599D79 /* GDTrackTool.h */,
+				3FEEDAF722DD786600599D79 /* GDTrackTool.m */,
+				3FEEDAF922DD791D00599D79 /* UIViewController+GDTrackTool.h */,
+				3FEEDAFA22DD791D00599D79 /* UIViewController+GDTrackTool.m */,
+				3FEEDAFC22DD7EE900599D79 /* UIControl+GDTrackTool.h */,
+				3FEEDAFD22DD7EE900599D79 /* UIControl+GDTrackTool.m */,
+			);
+			path = GDTrackTool;
+			sourceTree = "<group>";
+		};
+		BF09C86D42FFE824C00E7846 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0708DB3470F8C809946C6C2B /* Pods-GDTrackToolDemo.debug.xcconfig */,
+				690B99C48E1EC2EE5ECF2656 /* Pods-GDTrackToolDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C34C1AF9E6DACD6A97C7AF1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A077D81960C9AE120789B67F /* libPods-GDTrackToolDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1E505F22DC27A90040A698 /* GDTrackToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1E507622DC27AA0040A698 /* Build configuration list for PBXNativeTarget "GDTrackToolDemo" */;
+			buildPhases = (
+				160EA3079962231428B00D2C /* [CP] Check Pods Manifest.lock */,
+				3F1E505C22DC27A90040A698 /* Sources */,
+				3F1E505D22DC27A90040A698 /* Frameworks */,
+				3F1E505E22DC27A90040A698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDTrackToolDemo;
+			productName = GDTrackToolDemo;
+			productReference = 3F1E506022DC27A90040A698 /* GDTrackToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1E505822DC27A90040A698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "黄彬彬";
+				TargetAttributes = {
+					3F1E505F22DC27A90040A698 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 3F1E505B22DC27A90040A698 /* Build configuration list for PBXProject "GDTrackToolDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1E505722DC27A90040A698;
+			productRefGroup = 3F1E506122DC27A90040A698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1E505F22DC27A90040A698 /* GDTrackToolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1E505E22DC27A90040A698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1E506D22DC27AA0040A698 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160EA3079962231428B00D2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDTrackToolDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1E505C22DC27A90040A698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEEDB0422DDBBB900599D79 /* ViewController2.m in Sources */,
+				3FEEDAF822DD786600599D79 /* GDTrackTool.m in Sources */,
+				3FEEDAFE22DD7EE900599D79 /* UIControl+GDTrackTool.m in Sources */,
+				3FEEDB0122DDBAF600599D79 /* ViewController1.m in Sources */,
+				3FEEDAFB22DD791D00599D79 /* UIViewController+GDTrackTool.m in Sources */,
+				3F1E507322DC27AA0040A698 /* main.m in Sources */,
+				3F1E506522DC27A90040A698 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F1E507422DC27AA0040A698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F1E507522DC27AA0040A698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1E507722DC27AA0040A698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0708DB3470F8C809946C6C2B /* Pods-GDTrackToolDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWB96V7JWP;
+				INFOPLIST_FILE = GDTrackToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Golden.GDTrackToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1E507822DC27AA0040A698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690B99C48E1EC2EE5ECF2656 /* Pods-GDTrackToolDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWB96V7JWP;
+				INFOPLIST_FILE = GDTrackToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Golden.GDTrackToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1E505B22DC27A90040A698 /* Build configuration list for PBXProject "GDTrackToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1E507422DC27AA0040A698 /* Debug */,
+				3F1E507522DC27AA0040A698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1E507622DC27AA0040A698 /* Build configuration list for PBXNativeTarget "GDTrackToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1E507722DC27AA0040A698 /* Debug */,
+				3F1E507822DC27AA0040A698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1E505822DC27A90040A698 /* Project object */;
+}
