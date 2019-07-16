@@ -15,7 +15,7 @@
 		3FEEDAFE22DD7EE900599D79 /* UIControl+GDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEDAFD22DD7EE900599D79 /* UIControl+GDTrackTool.m */; };
 		3FEEDB0122DDBAF600599D79 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEDB0022DDBAF600599D79 /* ViewController1.m */; };
 		3FEEDB0422DDBBB900599D79 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEDB0322DDBBB900599D79 /* ViewController2.m */; };
-		E98686171B1443E389C9972A /* libPods-GDTrackToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A077D81960C9AE120789B67F /* libPods-GDTrackToolDemo.a */; };
+		D1CC7E282423CF8029C2F0FF /* Pods_GDTrackToolDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E580B24D28ECF67EC2AC0106 /* Pods_GDTrackToolDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		3FEEDB0222DDBBB900599D79 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		3FEEDB0322DDBBB900599D79 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		690B99C48E1EC2EE5ECF2656 /* Pods-GDTrackToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTrackToolDemo.release.xcconfig"; path = "Target Support Files/Pods-GDTrackToolDemo/Pods-GDTrackToolDemo.release.xcconfig"; sourceTree = "<group>"; };
-		A077D81960C9AE120789B67F /* libPods-GDTrackToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDTrackToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E580B24D28ECF67EC2AC0106 /* Pods_GDTrackToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDTrackToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98686171B1443E389C9972A /* libPods-GDTrackToolDemo.a in Frameworks */,
+				D1CC7E282423CF8029C2F0FF /* Pods_GDTrackToolDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 		C34C1AF9E6DACD6A97C7AF1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A077D81960C9AE120789B67F /* libPods-GDTrackToolDemo.a */,
+				E580B24D28ECF67EC2AC0106 /* Pods_GDTrackToolDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

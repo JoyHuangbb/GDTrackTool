@@ -1,0 +1,6 @@
+framework module Pods_GDTrackToolDemo {
+  umbrella header "Pods-GDTrackToolDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
