@@ -106,7 +106,6 @@
 				0708DB3470F8C809946C6C2B /* Pods-GDTrackToolDemo.debug.xcconfig */,
 				690B99C48E1EC2EE5ECF2656 /* Pods-GDTrackToolDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -353,7 +352,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Golden.GDTrackToolDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -373,7 +372,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Golden.GDTrackToolDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
