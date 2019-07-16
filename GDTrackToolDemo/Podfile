@@ -5,5 +5,5 @@ use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GDTrackToolDemo' do
-    pod 'UMengAnalytics-NO-IDFA', '~>3.4.7'
+    pod 'UMengAnalytics-NO-IDFA', :podspec => 'https://raw.githubusercontent.com/DianQK/UMengAnalytics-NO-IDFA-Module/master/UMengAnalytics-NO-IDFA.podspec'
 end
