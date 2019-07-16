@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "GDTrackTool"
-  spec.version      = "0.0.9"
+  spec.version      = "0.1.0"
   spec.description  = <<-DESC
                        TODO: Add long description of the pod here.
                        DESC
@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "GDTrackToolDemo/GDTrackToolDemo/GDTrackTool/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
   spec.platform     = :ios, "8.0"
+  spec.static_framework = true
 
   spec.subspec 'GDTrackTool' do |ss|
         ss.source_files = "GDTrackToolDemo/GDTrackToolDemo/GDTrackTool/**/*.{h,m}"
